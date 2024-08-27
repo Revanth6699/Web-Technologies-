@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .review-section {
+            width: 60%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .review-section h1, .review-section h2 {
+            margin: 0;
+        }
+        
+        .review-section button {
+            background-color: #0073bb;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+        
+        .review-section button:hover {
+            background-color: #005999;
+        }
+        
+        .filter {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .filter input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        
+        .filter select {
+            margin-left: 10px;
+            padding: 5px;
+        }
+        
+        .review {
+            display: flex;
+            border-top: 1px solid #ccc;
+            padding: 20px 0;
+        }
+        
+        .rating {
+            font-size: 1.5em;
+            color: #ffcc00;
+            margin-right: 20px;
+        }
+        
+        .review-content {
+            flex-grow: 1;
+        }
+        
+        .review-content h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        
+        .review-content p {
+            margin: 5px 0;
+        }
+        
+        .review-content a {
+            color: #0073bb;
+            text-decoration: none;
+        }
+        
+        .review-content a:hover {
+            text-decoration: underline;
+        }
+        .review-section img{
+            float: left;
+            width: 300px;
+            height: 200px
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="review-section">
+        <img src="D:\rapo gallery\Ismart Sankar HDgallery 17.jpeg"alt="Ismart Shankar">
+        <h1>iSmart Shankar (2019)</h1>
+        <h2>User Reviews</h2>
+        <button>Review this title</button>
+        
+        <div class="filter">
+            <input type="checkbox" id="hide-spoilers">
+            <label for="hide-spoilers">Hide Spoilers</label>
+            <select>
+                <option>Show All</option>
+                <option>Top Rated</option>
+                <option>Lowest Rated</option>
+            </select>
+            <select>
+                <option>Featured</option>
+                <option>Most Recent</option>
+            </select><br><br>
+        </div>
+        
+        <div class="review">
+            <div class="rating">4/10</div>
+            <div class="review-content">
+                
+                <h3>Copy of English movie</h3>
+                <p>Shameless copy of a English movie called IBOY. Please atleast give credit to the original movie if you intend to copy. Our Indian cinema has evolved so much and plagiarism at this stage is simply unacceptable and should not be entertained.</p>
+                <p><strong>senthilkg</strong> 30 July 2019</p>
+                <p>8 out of 9 found this helpful. Was this review helpful? <a href="#">Sign in to vote.</a></p>
+            </div>
+        </div>
+        
+        <div class="review">
+            <div class="rating">5/10</div>
+            <div class="review-content">
+                <h3>Time waste</h3>
+                <p>After a kick ass first half movie went in vain and finished like a routine script having nothing fresh to offer</p>
+                <p><strong>srinathsupergiant</strong> 18 July 2019</p>
+                <p>15 out of 20 found this helpful. Was this review helpful? <a href="#">Sign in to vote.</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
